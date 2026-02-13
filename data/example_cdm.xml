@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdm>
+  <header>
+    <creation_date>2026-02-12T10:00:00Z</creation_date>
+    <originator>SIMULATED_DATA</originator>
+    <message_id>CDM-TEST-0001</message_id>
+  </header>
+
+  <relative_metadata>
+    <tca>2026-02-12T18:23:00Z</tca>
+    <miss_distance units="m">120.0</miss_distance>
+  </relative_metadata>
+
+  <object1>
+    <object_id>SAT-A</object_id>
+    <state_vector>
+      <position units="m">
+        <x>6871000.0</x>
+        <y>12000.0</y>
+        <z>-34000.0</z>
+      </position>
+      <velocity units="m/s">
+        <x>-12.4</x>
+        <y>7540.0</y>
+        <z>1.8</z>
+      </velocity>
+    </state_vector>
+
+    <covariance_matrix>
+      <c11>100.0</c11> <c12>0.0</c12> <c13>0.0</c13> <c14>0.0</c14> <c15>0.0</c15> <c16>0.0</c16>
+      <c21>0.0</c21> <c22>120.0</c22> <c23>0.0</c23> <c24>0.0</c24> <c25>0.0</c25> <c26>0.0</c26>
+      <c31>0.0</c31> <c32>0.0</c32> <c33>150.0</c33> <c34>0.0</c34> <c35>0.0</c35> <c36>0.0</c36>
+      <c41>0.0</c41> <c42>0.0</c42> <c43>0.0</c43> <c44>0.01</c44> <c45>0.0</c45> <c46>0.0</c46>
+      <c51>0.0</c51> <c52>0.0</c52> <c53>0.0</c53> <c54>0.0</c54> <c55>0.01</c55> <c56>0.0</c56>
+      <c61>0.0</c61> <c62>0.0</c62> <c63>0.0</c63> <c64>0.0</c64> <c65>0.0</c65> <c66>0.01</c66>
+    </covariance_matrix>
+
+    <hard_body_radius>5.0</hard_body_radius>
+  </object1>
+
+  <object2>
+    <object_id>DEBRIS-B</object_id>
+    <state_vector>
+      <position units="m">
+        <x>6870950.0</x>
+        <y>12110.0</y>
+        <z>-33980.0</z>
+      </position>
+      <velocity units="m/s">
+        <x>-11.8</x>
+        <y>7538.0</y>
+        <z>2.0</z>
+      </velocity>
+    </state_vector>
+
+    <covariance_matrix>
+      <c11>200.0</c11> <c12>0.0</c12> <c13>0.0</c13> <c14>0.0</c14> <c15>0.0</c15> <c16>0.0</c16>
+      <c21>0.0</c21> <c22>220.0</c22> <c23>0.0</c23> <c24>0.0</c24> <c25>0.0</c25> <c26>0.0</c26>
+      <c31>0.0</c31> <c32>0.0</c32> <c33>250.0</c33> <c34>0.0</c34> <c35>0.0</c35> <c36>0.0</c36>
+      <c41>0.0</c41> <c42>0.0</c42> <c43>0.0</c43> <c44>0.02</c44> <c45>0.0</c45> <c46>0.0</c46>
+      <c51>0.0</c51> <c52>0.0</c52> <c53>0.0</c53> <c54>0.0</c54> <c55>0.02</c55> <c56>0.0</c56>
+      <c61>0.0</c61> <c62>0.0</c62> <c63>0.0</c63> <c64>0.0</c64> <c65>0.0</c65> <c66>0.02</c66>
+    </covariance_matrix>
+
+    <hard_body_radius>3.0</hard_body_radius>
+  </object2>
+</cdm>
